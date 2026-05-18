@@ -10,6 +10,5 @@ public:
     }
     string getSaklarNo(int i) {
         return saklarNo[i];
-    }
-    
-}
+    }  
+};
