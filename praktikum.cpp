@@ -64,4 +64,22 @@ int main() {
     RekeningBank* rekening3 = new RekeningPremium(8000000);
     RekeningBank* rekening4 = new RekeningPremium(15000000);
 
+    // Proses potong admin
+    rekening1->potongAdmin();
+    rekening1->tampilSaldo();
+    cout << endl;
+
+    rekening2->potongAdmin();
+    rekening2->tampilSaldo();
+    cout << endl;
+
+    rekening3->potongAdmin();
+    rekening3->tampilSaldo();
+    cout << endl;
+
+    rekening4->potongAdmin();
+    rekening4->tampilSaldo();
+    cout << endl;
+
     
+}
